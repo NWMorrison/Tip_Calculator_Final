@@ -106,7 +106,7 @@ int main()
         }
 
 
-            // Minor error handling if user inputs anything but a 1 or a 2 as an integer input.
+        // Minor error handling if user inputs anything but a 1 or a 2 as an integer input.
         else
         {
             std::cout << "Invalid Input. Please Run The Program Again." << std::endl;
