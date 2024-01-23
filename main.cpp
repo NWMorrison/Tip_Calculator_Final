@@ -16,27 +16,36 @@ int main()
 
     int choice = 0;                 // This allows for a controlled do/while loop to repeatedly run the tip-calculator.
 
+    std::cout << "\t\t\tWelcome To My Tip Calculator\n"
+                 "\nThis Program will take a subtotal amount input by the user and calculate the tip on that amount.\n"
+                 "You may input either a percentage or an actual dollar amount that you would like to leave.\n"
+                 "The Program will then provide a receipt with everything broken down in a neat format." << std::endl;
+
     do
     {
         int option = 0;             // This allows for control of our conditional-if branch.
 
 
         double subTotal = 0.00;     // This variable holds our initial subtotal value input by the user.
-        double tip = 0.00;          // This variable holds our final tip amount.
+        double tip;                 // This variable holds our final tip amount which is completed on the back-end.
         double tip_Percent = 0.00;  // This variable holds our tip percentage value. (User Input & Back-End).
 
         double cash_Amount = 0.00;  // This variable holds our cash amount input by the user.
-        double final_Amount = 0.00; // This variable holds our final total amount which is completed on the back-end.
+        double final_Amount;        // This variable holds our final total amount which is completed on the back-end.
 
 
         // This block asks for user input of our subtotal.
+        std::cout << std::endl;
         std::cout << "Please Enter The SubTotal ($00.00) For The Item You Have Purchased: ";
         std::cin >> subTotal;
         std::cout << std::endl;
 
 
         // This block sets up our conditional if-statement for user input of either a tip percentage or a dollar amount.
-        std::cout << "Would You Like To Enter The Tip Percentage(1) or An Actual Dollar Amount(2): ";
+        std::cout << "Would You Like To Enter The Tip Percentage (1) or An Actual Dollar Amount (2): \n"
+                     "1). Tip Percentage(%)\n"
+                     "2). Dollar Amount($)\n"
+                     "Selection: ";
         std::cin >> option;
         std::cout << std::endl;
 
@@ -51,7 +60,7 @@ int main()
 
 
             // This conversion takes that percentage, converts it down into a decimal number
-            // We then multiply that value by our subtotal which will give us our final value of oour tip.
+            // We then multiply that value by our subtotal which will give us our final value of our tip.
             tip = (tip_Percent / 100.00) * subTotal;
 
 
@@ -111,7 +120,7 @@ int main()
         std::cout << "Would you like to run the Tip-Calculator again? \n"
                      "1). Yes: \n"
                      "2.) No:  \n"
-                     "Answer:";
+                     "Selection:";
 
         std::cin >> choice;
         std::cout << std::endl;
