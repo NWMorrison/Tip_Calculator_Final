@@ -1,0 +1,3 @@
+C:/Users/NashW/CLionProjects/tip_Calculator/cmake-build-debug/CMakeFiles/tip_Calculator.dir
+C:/Users/NashW/CLionProjects/tip_Calculator/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/NashW/CLionProjects/tip_Calculator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
