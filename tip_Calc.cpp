@@ -99,10 +99,10 @@ int main()
             // This allows for fluidity when we print out to console.
             std::cout.precision(2);
             std::cout << "Receipt:" << std::endl;
-            std::cout << "Subtotal:" << std::setw(6) << "$" << std::fixed << subTotal << std::endl;
-            std::cout << "Tip (" << tip_Percent << "%): "  << "$" << cash_Amount << std::endl;
+            std::cout << "Subtotal:" << std::setw(7) << "$" << std::fixed << subTotal << std::endl;
+            std::cout << "Tip ("  << tip_Percent << "%): " << std::setw(3) << "$" << cash_Amount << std::endl;
             std::cout << std::setw(22) << "--------" << std::endl;
-            std::cout << "Total:" << std::setw(9) <<  "$" << final_Amount << std::endl;
+            std::cout << "Total:" << std::setw(10) <<  "$" << final_Amount << std::endl;
         }
 
 
