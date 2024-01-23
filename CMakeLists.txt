@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.27)
-project(tip_Calculator)
+project(Tip_Calculator_Final)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(tip_Calculator main.cpp)
+add_executable(Tip_Calculator_Final tip_Calc.cpp)

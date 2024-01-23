@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "tip_Calculator",
+					"name" : "Tip_Calculator_Final",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "tip_Calculator::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-tip_Calculator-Debug-12e54e2ad5d22eaa699e.json",
-					"name" : "tip_Calculator",
+					"id" : "Tip_Calculator_Final::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Tip_Calculator_Final-Debug-35d5e184f10f73da7ab4.json",
+					"name" : "Tip_Calculator_Final",
 					"projectIndex" : 0
 				}
 			]

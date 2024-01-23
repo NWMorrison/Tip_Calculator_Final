@@ -113,7 +113,7 @@ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/NashW/CLionProjects/Tip_Calcula
 CMAKE_GNUtoMS:BOOL=OFF
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/tip_Calculator
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Tip_Calculator_Final
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Users/NashW/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/ld.exe
@@ -157,7 +157,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=tip_Calculator
+CMAKE_PROJECT_NAME:STATIC=Tip_Calculator_Final
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/Users/NashW/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/233.13135.93/bin/mingw/bin/ranlib.exe
@@ -243,13 +243,13 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-tip_Calculator_BINARY_DIR:STATIC=C:/Users/NashW/CLionProjects/Tip_Calculator_Final/cmake-build-debug
+Tip_Calculator_Final_BINARY_DIR:STATIC=C:/Users/NashW/CLionProjects/Tip_Calculator_Final/cmake-build-debug
 
 //Value Computed by CMake
-tip_Calculator_IS_TOP_LEVEL:STATIC=ON
+Tip_Calculator_Final_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-tip_Calculator_SOURCE_DIR:STATIC=C:/Users/NashW/CLionProjects/Tip_Calculator_Final
+Tip_Calculator_Final_SOURCE_DIR:STATIC=C:/Users/NashW/CLionProjects/Tip_Calculator_Final
 
 
 ########################

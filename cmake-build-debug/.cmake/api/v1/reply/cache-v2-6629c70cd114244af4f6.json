@@ -659,7 +659,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/tip_Calculator"
+			"value" : "C:/Program Files (x86)/Tip_Calculator_Final"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "tip_Calculator"
+			"value" : "Tip_Calculator_Final"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1270,19 +1270,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "linker supports push/pop state"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "TRUE"
-		},
-		{
-			"name" : "tip_Calculator_BINARY_DIR",
+			"name" : "Tip_Calculator_Final_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1294,7 +1282,7 @@
 			"value" : "C:/Users/NashW/CLionProjects/Tip_Calculator_Final/cmake-build-debug"
 		},
 		{
-			"name" : "tip_Calculator_IS_TOP_LEVEL",
+			"name" : "Tip_Calculator_Final_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1306,7 +1294,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "tip_Calculator_SOURCE_DIR",
+			"name" : "Tip_Calculator_Final_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1316,6 +1304,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Users/NashW/CLionProjects/Tip_Calculator_Final"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		}
 	],
 	"kind" : "cache",
