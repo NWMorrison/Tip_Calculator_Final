@@ -7,6 +7,10 @@
 // 5). Calculate any missing values.
 
 
+// 2/19/24 - Computer Security "Scorecard"
+// I am updating my Git repository to see reflected security changes.
+// Will be updating this code over the next couple of weeks to learn about security flaws and improvements.
+
 #include <iostream> // Input/Output to our console.
 #include <iomanip>  // Manipulation of our console.
 
