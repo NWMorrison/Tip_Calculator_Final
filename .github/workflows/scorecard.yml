@@ -15,8 +15,10 @@ on:
     branches: [ "master" ]
 
 # Declare default permissions.
-permissions:
-  contents: read
+permissions: 
+  contents: read, write-all
+            
+
 
 jobs:
   analysis:
