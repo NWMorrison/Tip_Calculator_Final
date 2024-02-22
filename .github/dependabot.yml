@@ -9,4 +9,10 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
+on:
+  push:
+    branches-ignore:
+      - 'dependabot/**'
+  pull_request:
+
       
