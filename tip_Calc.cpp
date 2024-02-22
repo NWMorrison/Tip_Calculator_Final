@@ -124,7 +124,7 @@ int main()
         std::cout << "Would you like to run the Tip-Calculator again? \n"
                      "1). Yes: \n"
                      "2.) No:  \n"
-                     "Selection:";
+                     "Selection: ";
 
         std::cin >> choice;
         std::cout << std::endl;
