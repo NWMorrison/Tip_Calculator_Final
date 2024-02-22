@@ -134,7 +134,7 @@ int main()
 
 
     // Prints out a goodbye message letting the user know the program has ended.
-    std::cout << "Thank You For Using The Tip Calculator\n"
+    std::cout << "Thank You For Using The Tip Calculator.\n"
                  "Have A Nice Day!" << std::endl;
 
 
